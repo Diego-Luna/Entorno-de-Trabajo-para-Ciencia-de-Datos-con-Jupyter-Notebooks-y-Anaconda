@@ -17,3 +17,22 @@
 - Las variables son persistentes (se conservan) entre celdas de código!. 🔥
 
 - Para llamar a la línea de comandos, debemos usar primero un signo de admiración ! y luego un comando válido, por ejemplo !pwd o !pip install session-info.
+
+## Google Colab: ciencia de datos
+
+Puedes cargar archivos a tu notebook desde tu computadora, pero se borrarán una vez cierres tu notebook. También puedes vincular tu google drive para que tome los archivos desde ahí y de esta forma conservarlos.
+
+Colab está enfocado a trabajar con Python (también puede usar otros lenguajes) y ya trae librerías de ciencia de datos precargadas como:
+
+- matplotlib: Generación de gráficos a partir de listas o arrays.
+
+- numpy: Cómputo científico para la manipulación de vectores.
+
+- pandas: Manipulación y análisis de datos de tablas y series temporales.
+
+- scipy: Herramientas y algoritmos matemáticos.
+
+- seaborn: Visualización de datos estadísticos.
+
+Colab también tiene fragmentos de código (parecido a la herramienta para insertar funciones de Excel) que te facilita la programación.
+Con ctrl + shift +p abres la paleta de comandos, si escribes shortcuts o atajos de teclado te mostrará una lista de todos los atajos que puedes ejecutar en Colab.
