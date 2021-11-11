@@ -47,3 +47,11 @@ Con ctrl + shift +p abres la paleta de comandos, si escribes shortcuts o atajos 
 - No solo podemos agregar celdas de código y de texto, si no que en la opción de Bloque vienen muchos más tipos, como input, chart, dataframe sql, etc 🤯. Puede crear gráficas de manera automática sin código!
 - Para acceder a los atajos de teclado usamos Ctrl + i.
 - También es importante resaltar que tenemos una terminal integrada 🤖.
+
+## Uso de VSCode notebooks
+
+* Esto es un nuevo estilo de Notebook, integrado dentro de VSCode 🤯.
+* Puedes abrir VSCode en una carpeta específica para ver todos los archivos dentro (y solo esos). Menos distracción que tener todo abierto con WSL. 😆
+* Podemos correr los archivos .py directamente en la terminal dando click en ▶️.
+* Con las extensiones que instalamos, podemos darle formato de manera automática a nuestro código 🐍.
+* Dentro de los Jupyter Notebook en VSCode podemos usar todas estas extensiones 💕. La extensión de los Notebooks es .ipynb. Podemos exportar los notebooks a texto plano!.
