@@ -85,3 +85,47 @@ Para que se modifique el archivo .zshrc agregando el PATH para que se puedan eje
 - Para abrir notebooks usamos `jupyter-notebook` o bien `jupyterlab`. Los notebooks que creas ahí también los puedes abrir en VSCode.
 
 - Para abrir VSCode en la carpeta en el que te encuentras, usas `code .`.
+
+## Conda: crear y actualizar ambientes
+
+```
+$ conda create --name [nombre] [paquete]=[versión]
+```
+
+Si no hay se especifíca una versión, se instalará la última disponible.
+
+Para ver los paquetes(si no se especifican los paquetes, dará una lista de los ambientes virtuales):
+
+```
+ conda list [paquete]
+```
+
+Para activar y desactivar los ambientes:
+
+```
+$ conda activate [nombre del ambiente]
+```
+
+y
+
+```
+$ conda deactivate
+```
+
+Para actualizar paquetes:
+
+```
+$ conda update [paquete]
+```
+
+Para instalar un paquete específico:
+
+```
+$ conda install [paquete]=[versión]
+```
+
+Para clonar un ambiente:
+
+```
+$ conda --name [nuevo ambiente] --copy --clone [ambiente]
+```
