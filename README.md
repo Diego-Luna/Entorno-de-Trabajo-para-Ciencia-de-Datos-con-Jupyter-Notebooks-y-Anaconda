@@ -50,8 +50,38 @@ Con ctrl + shift +p abres la paleta de comandos, si escribes shortcuts o atajos 
 
 ## Uso de VSCode notebooks
 
-* Esto es un nuevo estilo de Notebook, integrado dentro de VSCode 🤯.
-* Puedes abrir VSCode en una carpeta específica para ver todos los archivos dentro (y solo esos). Menos distracción que tener todo abierto con WSL. 😆
-* Podemos correr los archivos .py directamente en la terminal dando click en ▶️.
-* Con las extensiones que instalamos, podemos darle formato de manera automática a nuestro código 🐍.
-* Dentro de los Jupyter Notebook en VSCode podemos usar todas estas extensiones 💕. La extensión de los Notebooks es .ipynb. Podemos exportar los notebooks a texto plano!.
+- Esto es un nuevo estilo de Notebook, integrado dentro de VSCode 🤯.
+- Puedes abrir VSCode en una carpeta específica para ver todos los archivos dentro (y solo esos). Menos distracción que tener todo abierto con WSL. 😆
+- Podemos correr los archivos .py directamente en la terminal dando click en ▶️.
+- Con las extensiones que instalamos, podemos darle formato de manera automática a nuestro código 🐍.
+- Dentro de los Jupyter Notebook en VSCode podemos usar todas estas extensiones 💕. La extensión de los Notebooks es .ipynb. Podemos exportar los notebooks a texto plano!.
+
+## Instalar Conda a través de la terminal.
+
+- Conda: Programa diseñado para gestión de paquetes, dependencias y entorno para cualquier lenguaje: Python, R, Ruby, Lua, Scala, Java, JavaScript, etc. Además, es multiplataforma. 🖥️
+
+- Para instalar conda debes instalar anaconda (versión completa, metapaquete de ciencia de datos) o miniconda (versión mínima). 🐍
+
+- Para instalar conda:
+
+[Anaconda | Individual Edition](https://www.anaconda.com/products/individual)
+
+O bien hacer
+
+```
+wget -O anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2021.05-MacOSX-x86_64.sh
+```
+
+Para instalar hacemos `bash anaconda.sh`. 🐍
+
+- Para los que usan ZSH. Deben de correr el comando
+
+```
+conda init zsh
+```
+
+Para que se modifique el archivo .zshrc agregando el PATH para que se puedan ejecutar comandos de conda
+
+- Para abrir notebooks usamos `jupyter-notebook` o bien `jupyterlab`. Los notebooks que creas ahí también los puedes abrir en VSCode.
+
+- Para abrir VSCode en la carpeta en el que te encuentras, usas `code .`.
