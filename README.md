@@ -129,3 +129,17 @@ Para clonar un ambiente:
 ```
 $ conda --name [nuevo ambiente] --copy --clone [ambiente]
 ```
+
+## Conda: eliminar ambientes y librerías
+
+Para desinstalar un paquete:
+
+```
+$ conda remove [paquete]
+```
+
+Para eliminar un ambiente (el ambiente debe estar desactivado):
+
+```
+$ conda env remove --name [nombre de un ambiente]
+```
