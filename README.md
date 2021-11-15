@@ -193,3 +193,25 @@ Instalar ambiente virtual desde archivo:
 ```
 conda env create --file nombre_archivo.yml
 ```
+
+## Acelerar la creación de ambientes virtuales con Mamba.
+
+- Mamba es una re-implementación de Conda (en C++) para la creación de ambientes virtuales. 🤖 Lo hace en paralelo, e incluye multiples optimizaciones que lo hacen más rápido.
+- Mamba funciona de la misma manera que conda en la línea de comandos. 🤔
+  `conda install --channel conda-forge mamba` para instalarlo.
+- Anaconda es muy tardado en multiples ocasiones (ya que es muy pesado). 😢
+
+Entendido y con MAMBA se crearan los ambientes
+
+```
+#Instalar MANBA
+conda install --channel conda-forge mamba
+mamba help
+mamba --help
+#Desinstalar ambiente
+conda env remove --name py39
+#Con MANBA
+mamba env create --file environment.yaml
+#Activar ambiente
+conda activate py39
+```
